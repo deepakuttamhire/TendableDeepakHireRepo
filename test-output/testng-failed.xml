@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="tests.TendableTest">
         <methods>
           <include name="testContactUsForm"/>
@@ -10,6 +11,15 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.TendableTest -->
+=======
+      <class name="Test.TendableTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testContactUsForm"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test.TendableTest -->
+>>>>>>> a15f6c64071f1f3643284222bddd1574fad873ce
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

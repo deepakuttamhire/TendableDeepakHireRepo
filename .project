@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>TendableDeepakPOM</name>
+=======
+	<name>TendableAutomationTest</name>
+>>>>>>> a15f6c64071f1f3643284222bddd1574fad873ce
 	<comment></comment>
 	<projects>
 	</projects>

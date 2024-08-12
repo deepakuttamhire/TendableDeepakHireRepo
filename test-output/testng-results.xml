@@ -2,6 +2,7 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2024-08-12T17:51:30 IST" name="Default suite" finished-at="2024-08-12T17:52:14 IST" duration-ms="43731">
     <groups>
     </groups>
@@ -20,6 +21,26 @@
           </reporter-output>
         </test-method> <!-- testRequestDemoButton -->
         <test-method signature="testContactUsForm()[pri:3, instance:tests.TendableTest@5824a83d]" started-at="2024-08-12T17:52:06 IST" name="testContactUsForm" finished-at="2024-08-12T17:52:13 IST" duration-ms="6961" status="FAIL">
+=======
+  <suite started-at="2024-08-12T17:01:22 IST" name="Default suite" finished-at="2024-08-12T17:01:43 IST" duration-ms="20651">
+    <groups>
+    </groups>
+    <test started-at="2024-08-12T17:01:22 IST" name="Default test" finished-at="2024-08-12T17:01:43 IST" duration-ms="20651">
+      <class name="Test.TendableTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TendableTest@5824a83d]" started-at="2024-08-12T17:01:22 IST" name="setUp" finished-at="2024-08-12T17:01:29 IST" duration-ms="7221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTopLevelMenus()[pri:1, instance:Test.TendableTest@5824a83d]" started-at="2024-08-12T17:01:29 IST" name="testTopLevelMenus" finished-at="2024-08-12T17:01:29 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTopLevelMenus -->
+        <test-method signature="testRequestDemoButton()[pri:2, instance:Test.TendableTest@5824a83d]" started-at="2024-08-12T17:01:29 IST" name="testRequestDemoButton" finished-at="2024-08-12T17:01:37 IST" duration-ms="7118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRequestDemoButton -->
+        <test-method signature="testContactUsForm()[pri:3, instance:Test.TendableTest@5824a83d]" started-at="2024-08-12T17:01:37 IST" name="testContactUsForm" finished-at="2024-08-12T17:01:42 IST" duration-ms="4920" status="FAIL">
+>>>>>>> a15f6c64071f1f3643284222bddd1574fad873ce
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Sorry, there was an error submitting the form. Ple')]"}
@@ -28,9 +49,15 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
+<<<<<<< HEAD
 Command: [a70b888931d84f99b090e615770e5721, findElement {using=xpath, value=//p[contains(text(),'Sorry, there was an error submitting the form. Ple')]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57658}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57658/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: a70b888931d84f99b090e615770e5721]]>
+=======
+Command: [97122c8d9f265a93ece404fd36187ce5, findElement {using=xpath, value=//p[contains(text(),'Sorry, there was an error submitting the form. Ple')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55977/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97122c8d9f265a93ece404fd36187ce5]]>
+>>>>>>> a15f6c64071f1f3643284222bddd1574fad873ce
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Sorry, there was an error submitting the form. Ple')]"}
@@ -39,9 +66,15 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.23.0', revision: '4df0a231af'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
+<<<<<<< HEAD
 Command: [a70b888931d84f99b090e615770e5721, findElement {using=xpath, value=//p[contains(text(),'Sorry, there was an error submitting the form. Ple')]}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57658}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57658/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: a70b888931d84f99b090e615770e5721
+=======
+Command: [97122c8d9f265a93ece404fd36187ce5, findElement {using=xpath, value=//p[contains(text(),'Sorry, there was an error submitting the form. Ple')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\lenovo\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55977/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 97122c8d9f265a93ece404fd36187ce5
+>>>>>>> a15f6c64071f1f3643284222bddd1574fad873ce
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -57,8 +90,12 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+<<<<<<< HEAD
 at pages.ContactUsPage.getErrorMessage(ContactUsPage.java:41)
 at tests.TendableTest.testContactUsForm(TendableTest.java:57)
+=======
+at Test.TendableTest.testContactUsForm(TendableTest.java:89)
+>>>>>>> a15f6c64071f1f3643284222bddd1574fad873ce
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -93,11 +130,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testContactUsForm -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.TendableTest@5824a83d]" started-at="2024-08-12T17:52:13 IST" name="tearDown" finished-at="2024-08-12T17:52:14 IST" duration-ms="933" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.TendableTest -->
+=======
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test.TendableTest@5824a83d]" started-at="2024-08-12T17:01:42 IST" name="tearDown" finished-at="2024-08-12T17:01:43 IST" duration-ms="1027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Test.TendableTest -->
+>>>>>>> a15f6c64071f1f3643284222bddd1574fad873ce
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
